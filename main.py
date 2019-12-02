@@ -22,9 +22,9 @@ def predict(file):
   
   answer = np.argmax(result)
   if result < 0.5:
-    print("{file} Predicted to be a cat")
+    print(file+" Predicted to be a cat")
   elif result > 0.5:
-    print("{file} Predicted to be a dog")
+    print(file+" Predicted to be a dog")
   return answer
 
 
